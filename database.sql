@@ -1,0 +1,9 @@
+CREATE DATABASE payroll_db;
+USE payroll_db;
+
+CREATE TABLE employees (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    position VARCHAR(50) NOT NULL,
+    salary FLOAT NOT NULL
+);
